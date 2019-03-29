@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.oakton.hwi.Testsuite.TestLargeBusinessAlert"/>
+      <class name="com.oakton.hwi.Testsuite.TestCreateServicePage"/>
+      <class name="com.oakton.hwi.Testsuite.TestCreateGovPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject"/>
+      <class name="com.oakton.hwi.Testsuite.TestUpdateServicePage"/>
+      <class name="com.oakton.hwi.Testsuite.TestActivateBusinessPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestActivateBusinessPageManual"/>
+      <class name="com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck"/>
+      <class name="com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestCreateBusinessPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves"/>
+      <class name="com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove"/>
+      <class name="com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage"/>
+      <class name="com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage"/>
+      <class name="com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

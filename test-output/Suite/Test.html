@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 27 15:39:07 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>3467 seconds (3467329 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage.failToRespondAlert()'><b>failToRespondAlert</b><br>Test class: com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage<br>Parameters: ManualSPFailedtoResponseAlert, Sures, Sures, Sures, Sures, 8989898989, 4545454545, 15, 1, Work1, syd, 15, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, SPSRI4436, srikanth.panchikarla@oakton.com.au, b</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;OHLE6330D8HV7X1&apos;, ip: &apos;10.209.255.234&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\SRIKAN~1.PAN\AppData\Local\Temp\scoped_dir17332_32149}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5978a97a07b140ae881e6cf9f0666f6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:340)
+	at com.oakton.hwi.Utility.CaptureScreenshot.getFailuerScreenShot(CaptureScreenshot.java:42)
+	at com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage.failToRespondAlert(TestManualSPFailedtoResponseAlertPage.java:211)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1899567935", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1899567935'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;OHLE6330D8HV7X1&apos;, ip: &apos;10.209.255.234&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\SRIKAN~1.PAN\AppData\Local\Temp\scoped_dir17332_32149}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5978a97a07b140ae881e6cf9f0666f6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:340)
+	at com.oakton.hwi.Utility.CaptureScreenshot.getFailuerScreenShot(CaptureScreenshot.java:42)
+	at com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage.failToRespondAlert(TestManualSPFailedtoResponseAlertPage.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+</pre></div></td>
+<td>1029</td>
+<td>com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage@2dde1bff</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestActivateBusinessPageManual.registerBusinessManual()'><b>registerBusinessManual</b><br>Test class: com.oakton.hwi.Testsuite.TestActivateBusinessPageManual<br>Parameters: ActivateBusiness, Stephen, Businessone, Stephenbusiness, P, 1212121212, 1212121212, 50, 1, Sriworksite, Sydney, 50, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, SPSRI4436</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.oakton.hwi.Testsuite.TestActivateBusinessPageManual.registerBusinessManual(TestActivateBusinessPageManual.java:190)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1416706187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1416706187'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at com.oakton.hwi.Testsuite.TestActivateBusinessPageManual.registerBusinessManual(TestActivateBusinessPageManual.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+</pre></div></td>
+<td>48</td>
+<td>com.oakton.hwi.Testsuite.TestActivateBusinessPageManual@31e5415e</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage.spNotMatchAlert()'><b>spNotMatchAlert</b><br>Test class: com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage<br>Parameters: Sai, Sai, Sai, Sai, 8989898989, 4545454545, 15, 1, Work1, syd, 2, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, srikanth.panchikarla@oakton.com.au, b</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage.spNotMatchAlert(TestAutoAllocateSPNotMatchAlertPage.java:201)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace739264372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace739264372'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage.spNotMatchAlert(TestAutoAllocateSPNotMatchAlertPage.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at com.oakton.hwi.Main.HWIMainMethod.main(HWIMainMethod.java:33)
+</pre></div></td>
+<td>119</td>
+<td>com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage@1cbb87f3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestCreateServicePage.CreateServiceProviderTest()'><b>CreateServiceProviderTest</b><br>Test class: com.oakton.hwi.Testsuite.TestCreateServicePage<br>Parameters: CreateServiceProvider, srikanth.panchikarla@oakton.com.au, b, SP3, Level 9, 271 Collins street, Melbourne, Victoria, 3000.0, SP3, SP3, SP3Contract, 24/03/2018, 24/03/2019, Metro A, 1, 1, 2, 1, 1, https://mail.google.com/mail/u/0/#inbox, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11</td>
+<td></td>
+<td>218</td>
+<td>com.oakton.hwi.Testsuite.TestCreateServicePage@272ed83b</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestLargeBusinessAlert.alertLargeBusiness()'><b>alertLargeBusiness</b><br>Test class: com.oakton.hwi.Testsuite.TestLargeBusinessAlert<br>Parameters: LargeBusinessAlert, Ravi, Businessone, Ravibusiness, P, 1212121212, 1212121212, 1000, 1, Sriworksite, Sydney, 1000, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, SPSRI4436, srikanth.panchikarla@oakton.com.au, b</td>
+<td></td>
+<td>110</td>
+<td>com.oakton.hwi.Testsuite.TestLargeBusinessAlert@702b8b12</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves.autoAllocationSPApproves()'><b>autoAllocationSPApproves</b><br>Test class: com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves<br>Parameters: AutoAllocationSPApproves, Mahesh, Mahesh, Mahesh, Mahesh, 8989898989, 4545454545, 15, 1, Work1, syd, 2, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, srikanth.panchikarla@oakton.com.au, b</td>
+<td></td>
+<td>427</td>
+<td>com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves@49912c99</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestCreateBusinessPage.businessUserCreation()'><b>businessUserCreation</b><br>Test class: com.oakton.hwi.Testsuite.TestCreateBusinessPage<br>Parameters: RegisterBusiness, Chys, Chys, Chys@gmail.com, P, 8989898989, 4545454545, 15, 1, Work1, syd, 2</td>
+<td></td>
+<td>28</td>
+<td>com.oakton.hwi.Testsuite.TestCreateBusinessPage@22e357dc</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestCreateGovPage.createGovAgency()'><b>createGovAgency</b><br>Test class: com.oakton.hwi.Testsuite.TestCreateGovPage<br>Parameters: CreateGovAgency, srikanth.panchikarla@oakton.com.au, b, SriGov, NewAgency, 1233, SrikanthNew, P, srigovagency, 12312321, 11, 3, SriWorksite, 271 collins street, Melbourne, 3000, 11, 1, No, 91</td>
+<td></td>
+<td>39</td>
+<td>com.oakton.hwi.Testsuite.TestCreateGovPage@550ee7e5</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage.createGovAgencyAndPopulate()'><b>createGovAgencyAndPopulate</b><br>Test class: com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage<br>Parameters: CreateGovAgency, srikanth.panchikarla@oakton.com.au, b, SriGov, NewAgency, 1233, SrikanthNew, P, srigovagency, 12312321, 11, 3, SriWorksite, 271 collins street, Melbourne, 3000, 11, 1, No, 91</td>
+<td></td>
+<td>31</td>
+<td>com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage@10163d6</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage.createHealthProgramTest()'><b>createHealthProgramTest</b><br>Test class: com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage<br>Parameters: HealthProgramBusiness, srikanthhwibus@gmail.com, P@ssword11, SriHealthProg, C:\HWI\Sample document.docx, C:\HWI\New document.docx, Goal Exercise, Need to execrcise, Smoke, Running, Running, People, Swimming, Swimming, Place</td>
+<td></td>
+<td>108</td>
+<td>com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage@649bec2e</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage.healthCheckOnline()'><b>healthCheckOnline</b><br>Test class: com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage<br>Parameters: BusinessOnlineHealthChk, Srikanth_Business, b, hwimailer@gmail.com, p@ssword11, 34</td>
+<td></td>
+<td>118</td>
+<td>com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage@a2431d0</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestActivateBusinessPage.registerBusiness()'><b>registerBusiness</b><br>Test class: com.oakton.hwi.Testsuite.TestActivateBusinessPage<br>Parameters: ActivateBusiness, Suman, Suman, Sumanbusiness, P, 1212121212, 1212121212, 10, 1, Sriworksite, Sydney, 1, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11</td>
+<td></td>
+<td>79</td>
+<td>com.oakton.hwi.Testsuite.TestActivateBusinessPage@34f5090e</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove.registerBusinessSPApprove()'><b>registerBusinessSPApprove</b><br>Test class: com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove<br>Parameters: BusinessSPManualApprove, Uda, Uda, Uda, P, 1212121212, 1212121212, 100, 1, Sriworksite, Sydney, 100, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, SPSRI4436, Srikanth_SP@gmail.com, b</td>
+<td></td>
+<td>175</td>
+<td>com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove@306f16f3</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject.registerBusinessSPReject()'><b>registerBusinessSPReject</b><br>Test class: com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject<br>Parameters: BusinessSPManualReject, Gop, Gop, gopbusiness, P, 1212121212, 1212121212, 10, 1, Sriworksite, Sydney, 1, hwimailer@gmail.com, p@ssword11, P@ssword11, P@ssword11, SPSRI4436, Srikanth_SP@gmail.com, b, Overloaded, srikanth.panchikarla@oakton.com.au, b</td>
+<td></td>
+<td>215</td>
+<td>com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject@1a4013</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage.spHealthOffline()'><b>spHealthOffline</b><br>Test class: com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage<br>Parameters: SPOfflineHealthCheck, Srikanth_SP@gmail.com, b, KESHI PTY LTD, 29/06/2017, 01, 3 PM, 4 PM, hwimailer@gmail.com, p@ssword11, business568@gmail.com, P@ssword11, Spiderman, Superman, Batman, Antman, HeMan, 1, srikanth.panchikarla@oakton.com.au, b</td>
+<td></td>
+<td>45</td>
+<td>com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage@15bbf42f</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck.spHealthOnline()'><b>spHealthOnline</b><br>Test class: com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck<br>Parameters: SPOnlineHealthCheck, Srikanth_SP@gmail.com, b, KESHI PTY LTD, 1, 34</td>
+<td></td>
+<td>49</td>
+<td>com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck@1b6e1eff</td></tr>
+<tr>
+<td title='com.oakton.hwi.Testsuite.TestUpdateServicePage.updateServiceAddress()'><b>updateServiceAddress</b><br>Test class: com.oakton.hwi.Testsuite.TestUpdateServicePage<br>Parameters: UpdateServiceAddress, srikanth.panchikarla@oakton.com.au, b, SriService238, Level 8, 281 Murphy Streee, Melbourne, Victoria, 3041.0</td>
+<td></td>
+<td>171</td>
+<td>com.oakton.hwi.Testsuite.TestUpdateServicePage@693fe6c9</td></tr>
+</table><p>
+</body>
+</html>

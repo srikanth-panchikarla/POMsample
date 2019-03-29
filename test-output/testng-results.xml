@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65659" started-at="2017-06-29T05:41:20Z" finished-at="2017-06-29T05:42:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65659" started-at="2017-06-29T05:41:20Z" finished-at="2017-06-29T05:42:25Z">
+      <class name="com.oakton.hwi.Testsuite.TestCreateBusinessPage">
+        <test-method status="PASS" signature="InvokeDriver()[pri:0, instance:com.oakton.hwi.Testsuite.TestCreateBusinessPage@79d8407f]" name="InvokeDriver" is-config="true" duration-ms="25564" started-at="2017-06-29T11:11:20Z" finished-at="2017-06-29T11:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeDriver -->
+        <test-method status="PASS" signature="businessUserCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oakton.hwi.Testsuite.TestCreateBusinessPage@79d8407f]" name="businessUserCreation" duration-ms="39662" started-at="2017-06-29T11:11:45Z" data-provider="Data" finished-at="2017-06-29T11:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RegisterBusiness]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dew]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dew123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8989898989]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4545454545]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Work1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[syd]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessUserCreation -->
+        <test-method status="PASS" signature="createScreenShot(org.testng.ITestResult)[pri:0, instance:com.oakton.hwi.Testsuite.TestCreateBusinessPage@79d8407f]" name="createScreenShot" is-config="true" duration-ms="399" started-at="2017-06-29T11:12:25Z" finished-at="2017-06-29T11:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: businessUserCreation STATUS:SUCCESS METHOD:TestCreateBusinessPage.businessUserCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oakton.hwi.Testsuite.TestCreateBusinessPage@79d8407f]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createScreenShot -->
+      </class> <!-- com.oakton.hwi.Testsuite.TestCreateBusinessPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

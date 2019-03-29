@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.oakton.hwi.Testsuite.TestCreateServicePage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestCreateServicePage -->
+      <class name="com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestHealthProgramBusinessPage -->
+      <class name="com.oakton.hwi.Testsuite.TestActivateBusinessPage">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestActivateBusinessPage -->
+      <class name="com.oakton.hwi.Testsuite.TestUpdateServicePage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestUpdateServicePage -->
+      <class name="com.oakton.hwi.Testsuite.TestActivateBusinessPageManual">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="createScreenShot"/>
+          <include name="registerBusinessManual" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestActivateBusinessPageManual -->
+      <class name="com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestBusinessHealthCheckOnlinePage -->
+      <class name="com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="spNotMatchAlert" invocation-numbers="0"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestAutoAllocateSPNotMatchAlertPage -->
+      <class name="com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationReject -->
+      <class name="com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestBusinessSPManualAllocationApprove -->
+      <class name="com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestSPOnlineHealthCheck -->
+      <class name="com.oakton.hwi.Testsuite.TestLargeBusinessAlert">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestLargeBusinessAlert -->
+      <class name="com.oakton.hwi.Testsuite.TestCreateBusinessPage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestCreateBusinessPage -->
+      <class name="com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestAutoAllocationSPApproves -->
+      <class name="com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestPopulateGovDetailsPage -->
+      <class name="com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="failToRespondAlert" invocation-numbers="0"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestManualSPFailedtoResponseAlertPage -->
+      <class name="com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage">
+        <methods>
+          <include name="InvokeDriver"/>
+          <include name="createScreenShot"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestSPOfflineHealthCheckPage -->
+      <class name="com.oakton.hwi.Testsuite.TestCreateGovPage">
+        <methods>
+          <include name="createScreenShot"/>
+          <include name="InvokeDriver"/>
+        </methods>
+      </class> <!-- com.oakton.hwi.Testsuite.TestCreateGovPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
